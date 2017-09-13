@@ -1,0 +1,17 @@
+{
+  "id": "http://schemas.web/manifest#",
+  "title": "Example Schema",
+  "description": "Example Schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "default": "0.0.1"
+    }
+  },
+  "required": [ "name", "version" ],
+  "additionalProperties": false
+}

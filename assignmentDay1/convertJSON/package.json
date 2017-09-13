@@ -1,0 +1,21 @@
+{
+  "name": "commander2-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "d2-generator": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "fs": "0.0.1-security",
+    "node-fetch": "^1.7.3",
+    "uuid": "^3.1.0"
+  }
+}
